@@ -15,7 +15,7 @@ import java.sql.ResultSet;
  * @author anizam
  */
 public class Ornek3 {
-    //Id'si 10 'dan b�y�k olan ki?ilerin maa?lar?n? 10000 yapiniz.
+    //Id'si 10 'dan büyük olan kişilerin maaşlarını 10000 yapiniz.
     public static void main(String[] args) {
           String adres="jdbc:derby://localhost:1527/sample";
         try(Connection con=DriverManager.getConnection(adres, "app","app")){

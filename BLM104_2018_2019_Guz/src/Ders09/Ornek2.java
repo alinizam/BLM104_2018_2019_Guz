@@ -26,7 +26,7 @@ public class Ornek2 {
         }finally{
             try {
                 f.close();
-                System.out.println("�al??t?");
+                System.out.println("Çalıştı");
             } catch (IOException ex) {
                 Logger.getLogger(Ornek2.class.getName()).log(Level.SEVERE, null, ex);
             }

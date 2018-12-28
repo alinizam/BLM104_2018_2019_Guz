@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
  */
 public class Soru1 {
     public static void main(String[] args) {
-        String metin ="Fatih1 Sultaaan2 Mehmmmet68 vak?f4 Ünnniversitesi9 Ahmet";
+        String metin ="Fatih1 Sultaaan2 Mehmmmet68 vakif4 Unnniversitesi9 Ahmet";
         //a
         
         for (int i = 0; i < metin.length()-2; i++) {

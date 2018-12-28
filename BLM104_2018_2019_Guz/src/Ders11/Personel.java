@@ -17,23 +17,23 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * @author anizam
+ * @author alinizam
  */
 @Entity
 @Table(name = "PERSONEL")
 @XmlRootElement
 @NamedQueries({
-    @NamedQuery(name = "Personel.findAll", query = "SELECT p FROM Personel p"),
-    @NamedQuery(name = "Personel.findByPersonelId", query = "SELECT p FROM Personel p WHERE p.personelId = :personelId"),
-    @NamedQuery(name = "Personel.findByAdi", query = "SELECT p FROM Personel p WHERE p.adi = :adi"),
-    @NamedQuery(name = "Personel.findBySoyadi", query = "SELECT p FROM Personel p WHERE p.soyadi = :soyadi"),
-    @NamedQuery(name = "Personel.findByMaas", query = "SELECT p FROM Personel p WHERE p.maas = :maas"),
-    @NamedQuery(name = "Personel.findByUnvanno", query = "SELECT p FROM Personel p WHERE p.unvanno = :unvanno"),
-    @NamedQuery(name = "Personel.findByBirimAdi", query = "SELECT p FROM Personel p WHERE p.birimAdi = :birimAdi")})
+    @NamedQuery(name = "Personel.findAll", query = "SELECT p FROM Personel p")
+    , @NamedQuery(name = "Personel.findByPersonelId", query = "SELECT p FROM Personel p WHERE p.personelId = :personelId")
+    , @NamedQuery(name = "Personel.findByAdi", query = "SELECT p FROM Personel p WHERE p.adi = :adi")
+    , @NamedQuery(name = "Personel.findBySoyadi", query = "SELECT p FROM Personel p WHERE p.soyadi = :soyadi")
+    , @NamedQuery(name = "Personel.findByMaas", query = "SELECT p FROM Personel p WHERE p.maas = :maas")
+    , @NamedQuery(name = "Personel.findByUnvanId", query = "SELECT p FROM Personel p WHERE p.unvanId = :unvanId")
+    , @NamedQuery(name = "Personel.findByUnvanno", query = "SELECT p FROM Personel p WHERE p.unvanno = :unvanno")
+    , @NamedQuery(name = "Personel.findByBirimAdi", query = "SELECT p FROM Personel p WHERE p.birimAdi = :birimAdi")
+    , @NamedQuery(name = "Personel.findByBirimId", query = "SELECT p FROM Personel p WHERE p.birimId = :birimId")})
 public class Personel implements Serializable {
 
-    @Column(name = "UNVAN_ID")
-    private Integer unvanId;
     private static final long serialVersionUID = 1L;
     @Id
     @Basic(optional = false)
@@ -45,10 +45,14 @@ public class Personel implements Serializable {
     private String soyadi;
     @Column(name = "MAAS")
     private Integer maas;
+    @Column(name = "UNVAN_ID")
+    private Integer unvanId;
     @Column(name = "UNVANNO")
     private Integer unvanno;
     @Column(name = "BIRIM_ADI")
     private String birimAdi;
+    @Column(name = "BIRIM_ID")
+    private Integer birimId;
 
     public Personel() {
     }
@@ -89,6 +93,14 @@ public class Personel implements Serializable {
         this.maas = maas;
     }
 
+    public Integer getUnvanId() {
+        return unvanId;
+    }
+
+    public void setUnvanId(Integer unvanId) {
+        this.unvanId = unvanId;
+    }
+
     public Integer getUnvanno() {
         return unvanno;
     }
@@ -103,6 +115,14 @@ public class Personel implements Serializable {
 
     public void setBirimAdi(String birimAdi) {
         this.birimAdi = birimAdi;
+    }
+
+    public Integer getBirimId() {
+        return birimId;
+    }
+
+    public void setBirimId(Integer birimId) {
+        this.birimId = birimId;
     }
 
     @Override
@@ -128,14 +148,6 @@ public class Personel implements Serializable {
     @Override
     public String toString() {
         return "Ders11.Personel[ personelId=" + personelId + " ]";
-    }
-
-    public Integer getUnvanId() {
-        return unvanId;
-    }
-
-    public void setUnvanId(Integer unvanId) {
-        this.unvanId = unvanId;
     }
     
 }

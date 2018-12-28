@@ -40,7 +40,7 @@ public class Ornek3 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        btn_gonder.setText("Gönder");
+        btn_gonder.setText("Gonder");
         btn_gonder.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_gonderActionPerformed(evt);

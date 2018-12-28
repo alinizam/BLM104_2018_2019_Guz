@@ -11,7 +11,7 @@ package Ders04;
  */
 public class Ornek6 {
     public static void main(String[] args) {
-        String s="Fatih S.MVÜ.";
+        String s="Fatih S.MVU.";
         System.out.println(s.replace('a', 'e'));
         System.out.println(s.lastIndexOf("."));
     }

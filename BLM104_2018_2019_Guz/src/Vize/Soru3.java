@@ -43,7 +43,7 @@ public class Soru3 extends javax.swing.JFrame {
             }
         });
 
-        jToggleButton1.setText("Görünür veya görünmez");
+        jToggleButton1.setText("GÃ¶rÃ¼nÃ¼r veya gÃ¶rÃ¼nmez");
         jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton1ActionPerformed(evt);

@@ -61,7 +61,7 @@ public class Ornek1 extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Sonuç");
+        jLabel1.setText("SonuÃ§");
 
         jButton4.setText("4");
         jButton4.addActionListener(new java.awt.event.ActionListener() {

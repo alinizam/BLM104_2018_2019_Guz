@@ -17,9 +17,9 @@ public class Ornek1 {
         for (int i = 0; i < s.length; i++) {
             try {
                 int sayi = Integer.parseInt(s[i]);
-                System.out.println("Do?ru say? = " + s[i]);
+                System.out.println("Doğru sayı = " + s[i]);
             } catch (Exception e) {
-                System.out.println("Hatal? say? �?kt? "+s[i]);
+                System.out.println("Hatalı sayı Çıktı "+s[i]);
             }
         }
 

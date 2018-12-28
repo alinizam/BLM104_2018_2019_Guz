@@ -11,8 +11,8 @@ package Ders04;
  */
 public class Ornek9 {
     public static void main(String[] args) {
-        // Metinde ilk ve son ?a? harfi aras?nda ka� adet bo?luk vard?r. Bulunuz.
-        String s="Fatih 123 Sultan2 Mehmet3 vak?f4 �niversitesi5";
+        // Metinde ilk ve son a harfi arasında kaç adet boşluk vardır. Bulunuz.
+        String s="Fatih 123 Sultan2 Mehmet3 vakıf Üniversitesi5";
         int ilk=s.indexOf("a");
         int son=s.lastIndexOf("a");
         System.out.println(s.substring(ilk,son).split(" ").length-1);

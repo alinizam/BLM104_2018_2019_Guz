@@ -13,7 +13,7 @@ import java.util.Random;
  */
 public class Ornek8 {
     public static void main(String[] args) {
-        String s="1Fatih1 2Sultan2 1Mehmet V 4Ü3";
+        String s="1Fatih1 2Sultan2 1Mehmet V 43";
         System.out.println(s.split(" ").length);
         Random r=new Random();
         int rasgeleKelime=r.nextInt(s.split(" ").length);

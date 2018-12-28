@@ -25,7 +25,7 @@ public class Ornek2 extends javax.swing.JFrame {
         initComponents();
         dtm.setColumnIdentifiers(new String[]{"Ad?","Zam"});
         dtm.addRow(new String[]{"Ahmet","10"});
-        dtm.addRow(new String[]{"Mehmet","yüzde 10"});
+        dtm.addRow(new String[]{"Mehmet","yuzde 10"});
         dtm.addRow(new String[]{"Ahmet","10 puan"});
         dtm.addRow(new String[]{"Ahmet","5"});
         dtm.addRow(new String[]{"Ahmet","%5"});
@@ -135,10 +135,10 @@ public class Ornek2 extends javax.swing.JFrame {
         // TODO add your handling code here:
         try {
             dtm.removeRow(jTable1.getSelectedRow());
-            jLabel1.setText("??lem gerçekle?ti");
+            jLabel1.setText("Ä°ÅŸlem gercekleÅŸti");
 
         } catch (Exception e) {
-            jLabel1.setText("Hatal? kay?t seçimi. Bir kay?t seçiniz.");
+            jLabel1.setText("Hatali kayit seÃ§imi. Bir kayÄ±t seÃ§iniz.");
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 

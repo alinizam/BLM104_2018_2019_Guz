@@ -19,9 +19,9 @@ public class Ornek5 {
            int a=3/0;
         }  
         catch (ArithmeticException e) {
-            System.out.println("S?f?ra b闤me hatas?"+e.getClass());
+            System.out.println("S覺f覺ra bolme hatasi"+e.getClass());
         }catch (NullPointerException e){
-            System.out.println("Obje olu?mad? hatas?"+e.getClass());
+            System.out.println("Obje olu��mad覺 hatas覺"+e.getClass());
         }catch (Exception e){
             System.out.println("Bilinmeyen hata"+e.getClass());
         }

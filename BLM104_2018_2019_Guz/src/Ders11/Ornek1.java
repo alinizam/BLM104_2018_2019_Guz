@@ -45,7 +45,7 @@ public class Ornek1 extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("÷zelle?tirilebilir Soru Sor");
+        jButton2.setText("√ñzelle≈ütirilebilir Soru Sor");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -59,14 +59,14 @@ public class Ornek1 extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setText("Bilgi Giri?");
+        jButton4.setText("Bilgi Giri≈ü");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
 
-        jButton5.setText("listeden bilgi giri?");
+        jButton5.setText("listeden bilgi giri≈ü");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -113,7 +113,7 @@ public class Ornek1 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null, "Merhaba D¸nya","Bir mesaj",JOptionPane.QUESTION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Merhaba D√ºnya","Bir mesaj",JOptionPane.QUESTION_MESSAGE);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -153,9 +153,9 @@ public class Ornek1 extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        String isim=(String)JOptionPane.showInputDialog(null,"Bir personel seÁiniz", "SeÁim", JOptionPane.YES_NO_OPTION, null, 
-                                    new String[]{"Ahmet","Ay?e","Fatma","Kemal"}, 
-                                    "Ay?e" );
+        String isim=(String)JOptionPane.showInputDialog(null,"Bir personel seciniz", "Secim", JOptionPane.YES_NO_OPTION, null, 
+                                    new String[]{"Ahmet","Ay≈üe","Fatma","Kemal"}, 
+                                    "Ay≈üe" );
         jLabel1.setText(isim);
     }//GEN-LAST:event_jButton5ActionPerformed
 

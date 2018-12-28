@@ -78,13 +78,13 @@ public class Ornek6 extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Ad?");
+        jLabel1.setText("Adı");
 
         jLabel2.setText("ID");
 
-        jLabel3.setText("Soyad?");
+        jLabel3.setText("Soyadı");
 
-        jButton3.setText("T�m Veriyi Oku");
+        jButton3.setText("Tüm Veriyi Oku");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -95,30 +95,30 @@ public class Ornek6 extends javax.swing.JFrame {
         txtTumVeri.setRows(5);
         jScrollPane2.setViewportView(txtTumVeri);
 
-        jButton4.setText("T�m Veriyi Oku Parametrik");
+        jButton4.setText("Tüm Veriyi Oku Parametrik");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
 
-        jButton5.setText("Se�ilen Sat?r? Oku");
+        jButton5.setText("Seçilen Satırı Oku");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
 
-        lbSatir.setText("Label Sat?r");
+        lbSatir.setText("Label Satır");
 
-        jButton6.setText("Se�ilen Sat?r? Sil");
+        jButton6.setText("Seçilen Satırı Sil");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
 
-        jButton7.setText("Ad?n? De?i?tir");
+        jButton7.setText("Adını Değiştir");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);

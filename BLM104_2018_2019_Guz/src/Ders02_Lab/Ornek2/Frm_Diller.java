@@ -32,7 +32,7 @@ public class Frm_Diller extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        cmb_diller.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "TÜRKÇE", "?NGL?ZCE", "FRANSIZCA" }));
+        cmb_diller.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "TÃœRKÃ‡E", "Ä°NGLÄ°ZCE", "FRANSIZCA" }));
         cmb_diller.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 cmb_dillerItemStateChanged(evt);
@@ -79,7 +79,7 @@ public class Frm_Diller extends javax.swing.JFrame {
       lbl_mesaj.setText(selamlar[cmb_diller.getSelectedIndex()]);
 //        String value= (String)cmb_diller.getSelectedItem();
 //  
-//        if (value.compareTo("TÜRKÇE")==0)
+//        if (value.compareTo("Tï¿½RKï¿½E")==0)
 //        {
 //           lbl_mesaj.setText("MERHABA");
 //        }else if (value.compareTo("?NGL?ZCE")==0)

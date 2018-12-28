@@ -40,7 +40,7 @@ public class Hedef extends javax.swing.JFrame {
     
     
     public Hedef (Kaynak k){
-        k.mesaj="Hedefi ça??rd?n?z. Güle güle";
+        k.mesaj="Hedefi baÅŸardÄ±nÄ±z. GÃ¼le gÃ¼le";
     }
 
     /**

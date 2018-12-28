@@ -17,7 +17,7 @@ public class Ornek2 {
         JFrame ekranim = new JFrame("Merhaba");
         ekranim.setVisible(true);
         
-        JButton butonum=new JButton("Dünya");
+        JButton butonum=new JButton("DÃ¼nya");
         ekranim.add(butonum);
     }
 }

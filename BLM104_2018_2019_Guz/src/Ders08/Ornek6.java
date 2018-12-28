@@ -12,25 +12,25 @@ package Ders08;
 public class Ornek6 {
 
     public static void main(String[] args) {
-        System.out.println("Main �al??t?");
+        System.out.println("Main çalıştı");
         birMetot();
-        System.out.println("Main ba?ar?l? bitti.");
+        System.out.println("Main basarılı bitti.");
     }
 
     static void birMetot() {
-        System.out.println("Bir metot �al??t?");
+        System.out.println("Bir metot çalıştı");
         try {
             ikiMetot();
-            System.out.println("Bir metot ba?ar?l? bitti");
+            System.out.println("Bir metot basarili bitti");
         } catch (Exception e) {
             System.out.println("Bir metot yakalad?");
         }
     }
 
     static void ikiMetot() {
-        System.out.println("En alt metot  �al??t?");
+        System.out.println("En alt metot  çalıştı");
         int i = 1 / 0;
-        System.out.println("En alt metot ba?ar?l? bitti");
+        System.out.println("En alt metot basarili bitti");
 
     }
 

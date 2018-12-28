@@ -70,7 +70,7 @@ public class Ornek1 extends javax.swing.JFrame {
             }
         });
 
-        btn_buyuk.setText("En Büyük");
+        btn_buyuk.setText("En BÃ¼yÃ¼k");
         btn_buyuk.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_buyukActionPerformed(evt);

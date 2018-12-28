@@ -26,15 +26,15 @@ public class Soru2 extends javax.swing.JFrame {
     public Soru2() {
         initComponents();
         dtmBirim.setColumnIdentifiers(new String[]{"Birim", "Butce"});
-        dtmPersonel.setColumnIdentifiers(new String[]{"Ad?", "Soyadi", "Tutar", "Tür", "Birim"});
-        personeller.add(new Personel("Ahmet", "Ak", 20000, "Avans", "Müdürlük"));
-        personeller.add(new Personel("Ahmet", "Ak", 20000, "Ödeme", "Müdürlük"));
-        personeller.add(new Personel("Ahmet", "Ak", 10000, "Avans", "Müdürlük"));
+        dtmPersonel.setColumnIdentifiers(new String[]{"Ad?", "Soyadi", "Tutar", "Tï¿½r", "Birim"});
+        personeller.add(new Personel("Ahmet", "Ak", 20000, "Avans", "Mï¿½dï¿½rlï¿½k"));
+        personeller.add(new Personel("Ahmet", "Ak", 20000, "ï¿½deme", "Mï¿½dï¿½rlï¿½k"));
+        personeller.add(new Personel("Ahmet", "Ak", 10000, "Avans", "Mï¿½dï¿½rlï¿½k"));
         personeller.add(new Personel("Ahmet", "Ak", 20000, "Avans", "Personel"));
-        personeller.add(new Personel("Ahmet", "Ak", 20000, "Ödeme", "Personel"));
+        personeller.add(new Personel("Ahmet", "Ak", 20000, "ï¿½deme", "Personel"));
 
         birimler.add(new Birim("Personel", 10000));
-        birimler.add(new Birim("Müdürlük", 20000));
+        birimler.add(new Birim("MÃ¼dÃ¼rlÃ¼k", 20000));
 
         jTable1.setModel(dtmBirim);
         jTable2.setModel(dtmPersonel);
@@ -112,7 +112,7 @@ public class Soru2 extends javax.swing.JFrame {
         jList1.setToolTipText("");
         jScrollPane3.setViewportView(jList1);
 
-        jButton4.setText("Bütçe kontrol");
+        jButton4.setText("Bï¿½tï¿½e kontrol");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -222,7 +222,7 @@ public class Soru2 extends javax.swing.JFrame {
         }
         DefaultListModel dlm = new DefaultListModel();
         dlm.addElement("Avans " + avans);
-        dlm.addElement("Ödeme " + odeme);
+        dlm.addElement("ï¿½deme " + odeme);
         jList1.setModel(dlm);
 
     }//GEN-LAST:event_jButton3ActionPerformed

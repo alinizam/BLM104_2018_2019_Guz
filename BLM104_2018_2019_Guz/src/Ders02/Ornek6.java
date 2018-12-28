@@ -44,7 +44,7 @@ public class Ornek6 extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setText("Seçileni Oku");
+        jButton1.setText("SeÃ§ileni Okuyunuz");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -67,7 +67,7 @@ public class Ornek6 extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setText("Seçileni Sil");
+        jButton4.setText("SeÃ§ileni Sil");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -94,7 +94,7 @@ public class Ornek6 extends javax.swing.JFrame {
                                 .addComponent(jButton2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(jTextField1))))
-                .addContainerGap(98, Short.MAX_VALUE))
+                .addContainerGap(68, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

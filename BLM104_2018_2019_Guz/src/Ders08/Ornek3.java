@@ -23,13 +23,13 @@ public class Ornek3 {
       
              System.out.println(bolunen/bolen);
              System.out.println("Devam");
-             System.out.println("Ba?ar?l? bitti");
+             System.out.println("Basarili bitti");
         } 
         catch (ArithmeticException e) {
-            System.out.println("Say? s?f?ra bölünemez."+e.getMessage());
+            System.out.println("Sayi sifira bolunemez."+e.getMessage());
         }
          catch (NumberFormatException e) {
-             System.out.println("Say? s?f?ra bölünemez." + e.getMessage());
+             System.out.println("Sayi sifira bolunemez." + e.getMessage());
         }
        
     }

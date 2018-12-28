@@ -17,7 +17,7 @@ public class Ornek5 {
             a.satisYap(20);
             System.out.println(a.varolanMalzemeAdet);   
         } catch (stokHata e) {
-            System.out.println(e.kalanMalzeme +" kadar malzeme aç??? var.");
+            System.out.println(e.kalanMalzeme +" kadar malzeme eksiÄŸi var.");
         }
        
     }

@@ -52,21 +52,21 @@ public class Ornek5 extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        jButton1.setText("Bütünle?ik Olu?turma");
+        jButton1.setText("BÃ¼tÃ¼nleÅŸik OluÅŸturma");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
-        btnVektor.setText("VektörleVEriEkleme");
+        btnVektor.setText("VektÃ¶rleVEriEkleme");
         btnVektor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVektorActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Bütünle?ik  NEw ile Olu?turma");
+        jButton2.setText("BÃ¼tÃ¼nleÅŸik  NEw ile OluÅŸturma");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
